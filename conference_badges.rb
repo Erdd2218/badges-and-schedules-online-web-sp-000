@@ -12,6 +12,7 @@ end
 
 def assign_rooms(attendees)
   num = 0
+  if num < attendees.length 
   attendees.collect do |name|
     num += 1 
     return "Hello, #{name}! You'll be assigned to room #{num}!"
