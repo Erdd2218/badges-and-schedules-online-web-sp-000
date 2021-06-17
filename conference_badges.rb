@@ -13,7 +13,6 @@ end
 def assign_rooms(attendees)
   greet = []
   attendees.map do |name, idx|
-    greet << "Hello, #{name}! You'll be assigned to room #{idx += 1}!"
-    return greet 
+    return << "Hello, #{name}! You'll be assigned to room #{idx += 1}!"
   end
 end
