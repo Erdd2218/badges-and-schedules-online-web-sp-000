@@ -22,7 +22,7 @@ def printer(attendees)
   badge_maker.each do |attendees|
      puts attendees
   end 
-  assign_rooms do |room|
+  assign_rooms.each do |room|
     name(room)
   end
 end 
