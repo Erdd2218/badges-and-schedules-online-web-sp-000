@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index do |name, idx|
-    greet = "Hello, #{name}! You'll be assigned to room #{idx += 1}!".split(" ")
+    greet << "Hello, #{name}! You'll be assigned to room #{idx += 1}!"
     return greet 
   end
 end
