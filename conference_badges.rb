@@ -6,6 +6,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |att|
+    new_arr = att.split(" ")
     return badge_maker(att)
   end
 end 
