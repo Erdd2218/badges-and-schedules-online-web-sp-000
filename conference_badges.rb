@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   greet = []
-  attendees.collect do |name, idx|
+  attendees.collect do |name|
     greet << "Hello, #{name}! You'll be assigned to room #{idx += 1}!"
     return greet 
   end
