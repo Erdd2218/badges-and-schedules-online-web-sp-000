@@ -15,6 +15,5 @@ def assign_rooms(attendees)
   attendees.collect do |name|
     num += 1 
     return "Hello, #{name}! You'll be assigned to room #{num}!"
-    
   end
 end
