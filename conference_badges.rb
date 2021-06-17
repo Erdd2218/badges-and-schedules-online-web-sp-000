@@ -20,6 +20,6 @@ end
 
 def printer(attendees)
   attendees.each do |msg|
-    puts msg 
+    puts badge_maker(msg) 
   end 
 end 
